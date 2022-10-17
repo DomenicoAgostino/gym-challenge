@@ -1,0 +1,63 @@
+
+section.index{
+    .fluid-resize{
+        transition: .2s all;
+    }
+
+    .index-container {
+        width: 100%;
+        margin-bottom: 50px;
+        min-height: 100px;
+        background-color: rgb(0, 94, 255);
+        color: white;
+        box-shadow: 0px 0px 15px blanchedalmond;;
+        border-radius: 20px;
+        overflow: hidden;
+        transition: .2s all;
+        &.no-shadow{
+            box-shadow: none;
+        }
+        &.form-style{
+            background-color: white;
+        }
+        .form-margin{
+            margin: 15px;
+        }
+        .index-header{
+            display: flex;
+            column-gap: 7px;
+            padding-left: 15px;
+            align-items: center;
+            width: 100%;
+            min-height: 50px;
+            border-bottom: 5px solid black;
+            text-transform: uppercase;
+            font-size: 20px;
+            color: rgb(0, 94, 255);
+            background-color: white;
+        }
+
+        .index-btn{
+            padding: 0px 10px;
+            height: fit-content;
+            font-size: 16px;
+            font-weight: bold;
+            i{
+                margin-right: 7px;
+            }
+            &.reset-pwd{
+                font-size: 13px;
+            }
+        }
+    }
+
+}
+
+.btn-log{
+    color: white;
+}
+
+
+.nav-color{
+    background-color: rgb(0, 94, 255);
+}
